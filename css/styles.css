@@ -1,0 +1,159 @@
+a{
+    text-decoration-line: none;
+}
+body{
+    /*#141330*/
+    color: white;
+    background-color: #0f2027;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-flow: column wrap;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 4px 4px 4px red;
+}
+.banner{
+    background-image: url('../media/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 650px;
+}
+
+.ofertas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.ofertas .playera{
+    display: inherit;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.playera *{
+    margin: 5px;
+    text-transform: uppercase;
+}
+.ofertas img{
+    width: 250px;
+    height: 250px;
+    margin: auto 5px;
+    border-radius: 5px;
+}
+.ofertas button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.pago{
+    text-align: center;
+}
+.pago img{
+    width: 90%;
+    margin: 5px;
+    border-radius: 5px;
+}
+.mapa{
+    width: 100%;
+    text-align: center;
+}
+.mapa iframe{
+    width: 95%;
+    height: 250px;
+    
+}
+footer{
+    background-color: lightslategrey;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+footer p a {
+    color: red;
+}
+
+.about{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.about *{
+    margin: 5px;
+
+}
+.about img{
+    width: 250px;
+    height: 250px;
+}
+
+.contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.contact > form{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+.contact > form *{
+    margin: 5px;
+}
+.contact > form input{
+    padding: 5px;
+}
+.contact > form input[type=reset]{
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.contact > form input[type=submit]{
+    background-color: lime;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.logoFB{
+    width: 250px;
+    height: 250px;
+}
